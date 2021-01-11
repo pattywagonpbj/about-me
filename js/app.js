@@ -12,7 +12,7 @@ var userName = prompt ('Hey, how\'s it going? What \'s your name pal?');
 var questionOne = prompt('Do I live in Washington').toLowerCase();
 if(questionOne === 'yes'|| questionOne ==='y'){
   // console.log('you are correct')
-  alert('you are correct'); 
+  alert('Spot on!'); 
 } else if ( questionOne === 'no' || questionOne === 'n'){
   alert ('You are so wrong!');
 }
@@ -28,7 +28,7 @@ if(questionTwo === 'yes' || questionTwo === 'y') {
 var questionThree = prompt('Do I love sushi?').toLowerCase();
 if(questionThree === 'yes'|| questionThree ==='y'){
   // console.log('you are correct')
-  alert('you are correct'); 
+  alert('You\'re on a role!'); 
 } else if ( questionThree === 'no' || questionThree === 'n'){
   alert ('PFFFTTTT that doesn\'t sound like me!');
 }
@@ -36,7 +36,7 @@ if(questionThree === 'yes'|| questionThree ==='y'){
 var questionFour = prompt('Do I like scubadiving?').toLowerCase();
 if(questionFour === 'yes'|| questionFour ==='y'){
   // console.log('you are correct')
-  alert('you are correct'); 
+  alert('Another one Correct!'); 
 } else if ( questionFour === 'no' || questionFour === 'n'){
   alert ('Wow, you got it.......NOT!');
 }
@@ -44,7 +44,7 @@ if(questionFour === 'yes'|| questionFour ==='y'){
 var questionFive = prompt('Do I put my family first?').toLowerCase();
 if(questionFive === 'yes'|| questionFive ==='y'){
   // console.log('you are correct')
-  alert('you are correct'); 
+  alert('Amazing!'); 
 } else if ( questionFive === 'no' || questionFive === 'n'){
   alert ('You need to rethink that and come back with an absolute YES!');
 }
