@@ -19,3 +19,17 @@ p {
   display: inline-block;
   width: 450px;
 }
+
+li {
+  background-color: goldenrod;
+  font-size: 5mm;
+  margin: 7mm;
+  display: inline-block;
+  width: 450px;
+}
+
+p {
+  background-color: green;
+  font-size: 5mm;
+  margin: 7mm;
+}
