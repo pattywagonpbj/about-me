@@ -4,7 +4,7 @@
 
 ## About me
 
-Hello, my name is Patrick, but everyone calls me PJ for short. I spent 8 years in the Marine Corps and I got out in Dec of 2019. I am currently working as a private contractor in executive protection for multiple clients. I love to travel and I've been to a lot of different places all around the world. I'm a foodie and I love cooking and trying out new recipes to sharpen my skills. I am currently in school at CodeFellows to become a Software Developer.  
+Hello, my name is Patrick, but everyone calls me PJ for short. I spent 8 years in the Marine Corps and I got out in Dec of 2019. I am currently working in executive protection as a private contractor for multiple clients. I love to travel and I've been to a lot of different places all around the world. I'm a foodie and I love cooking and trying out new recipes to sharpen my skills. I am currently in school at CodeFellows to become a Software Developer.  
 
 ### Author: Student/Group Name
 
