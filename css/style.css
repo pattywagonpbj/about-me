@@ -1,0 +1,25 @@
+body{
+  background-color: blueviolet;
+}
+
+h1 {
+  background: chartreuse;
+  font-size: 11mm;
+  margin: 7mm;
+}
+
+h2 {
+  background: rgb(48, 155, 101);
+}
+
+header, footer{
+  background-color: crimson;
+  text-align: center;
+  font-family: Cambria;
+  padding: 4mm;
+}
+
+p {
+  display: inline-block;
+  width: 450px;
+}
