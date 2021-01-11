@@ -6,7 +6,8 @@ var banana = 42
 
 // get user name and offer greeting
 
-var userName = prompt ('Hey, how\'s it going? What \'s your name pal?');
+var userName = prompt ('Hey, how\'s it going? What\'s your name pal?');
+alert('Welcome ' + userName + ' to my website')
 
 
 var questionOne = prompt('Do I live in Washington').toLowerCase();
@@ -48,3 +49,6 @@ if(questionFive === 'yes'|| questionFive ==='y'){
 } else if ( questionFive === 'no' || questionFive === 'n'){
   alert ('You need to rethink that and come back with an absolute YES!');
 }
+
+// var userName = prompt ('Well that\'s a little bit about me, I hope you enjoyed my website?');
+alert('Goodbye, ' + userName + ' I hope you enjoyed my website.')
