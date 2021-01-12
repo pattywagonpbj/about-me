@@ -64,18 +64,13 @@ for (var i = 1; i < 5; i++) {
     alert('You got it right! Congratulations!');
     score++;
     break;
-    // console.log('Sorry, the correct answer was 9');
-  }
-  if(i === 4) {
-    alert('Sorry, the correct answer was 9');
-    break;
-  } else if (answerSix < 9) {
+  } else if(answerSix < 9) {
     alert('Too low!');
-  } else if (answerSix > 9) {
+  } else if(answerSix > 9) {
     alert('Too high!');
   }
-  answerSix = prompt('Pick a number between 1 and 20. You get 4 guesses, so make them count!');
 }
+alert('The answer was 9');
 
 // question seven
 
