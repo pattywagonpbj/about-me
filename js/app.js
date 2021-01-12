@@ -58,16 +58,16 @@ if (answerFive === 'yes' || answerFive === 'y') {
 }
 
 // question six
-var answerSix = prompt('Pick a number between 1 and 20. You get 4 guesses, so make them count!');
 for (var i = 1; i < 5; i++) {
-  if(i === 4) {
-    alert('Sorry, the correct answer was 9');
+  var answerSix = prompt('Pick a number between 1 and 20. You get 4 guesses, so make them count!');
+  if(answerSix === '9') {
+    alert('You got it right! Congratulations!');
     score++;
     break;
     // console.log('Sorry, the correct answer was 9');
   }
-  if(answerSix === '9') {
-    alert('You got it right! Congratulations!');
+  if(i === 4) {
+    alert('Sorry, the correct answer was 9');
     break;
   } else if (answerSix < 9) {
     alert('Too low!');
