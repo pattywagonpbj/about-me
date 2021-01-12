@@ -1,5 +1,7 @@
 body{
-  background-color: blueviolet;
+  background-image: url("../img/usmcimg.png");
+  object-fit: cover;
+  background-size: auto;
 }
 
 h1 {

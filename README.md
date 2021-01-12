@@ -10,7 +10,8 @@ Hello, my name is Patrick, but everyone calls me PJ for short. I spent 8 years i
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
-* Louis 
+* Collaboration with Kassie, Anthony, Aloysious, Brian to get the code to work for question 6 and 7.
+* Collaboration with Michael (TA CodeFellows).
 
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
