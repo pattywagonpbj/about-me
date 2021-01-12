@@ -32,7 +32,7 @@ var answerThree = prompt('Do I love sushi?').toLowerCase();
 if (answerThree === 'yes' || answerThree === 'y') {
   score++;
   // console.log('you are correct');
-  alert('You\'re on a role!');
+  alert('You\'re on a roll!');
 } else if (answerThree === 'no' || answerThree === 'n') {
   alert('PFFFTTTT that doesn\'t sound like me!');
 }
