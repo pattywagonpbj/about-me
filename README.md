@@ -16,3 +16,10 @@ Hello, my name is Patrick, but everyone calls me PJ for short. I spent 8 years i
 ### Reflections and Comments
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+# LAB-04 Pair Programming
+
+* [Navigator - Patrick Jarrett PJ](https://github.com/pattywagonpbj)
+* [Driver - Tom McGuire](https://github.com/MuckT)
+  * [PR #1](https://github.com/pattywagonpbj/about-me/pull/1)
+  * [PR #2](https://github.com/pattywagonpbj/about-me/pull/2)
