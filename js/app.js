@@ -7,6 +7,63 @@ alert('Welcome ' + userName + ' to my website');
 
 var score = 0;
 
+// This is an array of Objects with the question info
+const questionArray = [
+  {
+    question: 'Do I live in Washington?',
+    correctAnswer: ['yes', 'y'],
+    correctAnswerResponse: 'Spot on!',
+    incorrectAnswerResponse: 'You are so wrong!',
+  },
+  {
+    question: 'Do I like snowboarding?',
+    correctAnswer: ['yes', 'y'],
+    correctAnswerResponse: 'That\'s also correct',
+    incorrectAnswerResponse: 'Wrong! I love it!'
+  },
+  {
+    question: 'Do I love sushi?',
+    correctAnswer: ['yes', 'y'],
+    correctAnswerResponse: 'You\'re on a roll!',
+    incorrectAnswerResponse: 'PFFFTTTT that doesn\'t sound like me!'
+  },
+  {
+    question: 'Do I like scuba diving?',
+    correctAnswer: ['yes', 'y'],
+    correctAnswerResponse: 'Another one Correct!',
+    incorrectAnswerResponse: 'Wow, you got it.......NOT!',
+  },
+  {
+    question: 'Do I put my family first?',
+    correctAnswer: ['yes', 'y'],
+    correctAnswerResponse: 'Amazing!',
+    incorrectAnswerResponse: 'You need to rethink that and come back with an absolute YES!',
+  }
+];
+
+// Question Maker
+function questionMaker(question, correctAnswer, correctAnswerResponse, incorrectAnswerResponse) {
+  var answer = prompt(question).toLowerCase();
+  var correctAnswerHit = false;
+  for (let i = 0; i < correctAnswer.length; i++) {
+    if (answer === correctAnswer[i]) {
+      correctAnswerHit = true;
+      break;
+    }
+  }
+  if(correctAnswerHit) {
+    alert(correctAnswerResponse);
+    score++;
+  } else {
+    alert(incorrectAnswerResponse);
+  }
+}
+
+for (let i = 0; i < questionArray.length; i++) {
+  questionMaker(questionArray[i].question, questionArray[i].correctAnswer, questionArray[i].correctAnswerResponse, questionArray[i].incorrectAnswerResponse);
+}
+
+/*
 // question one
 function questionOne() {
   var answerOne = prompt('Do I live in Washington').toLowerCase();
@@ -76,7 +133,7 @@ function questionFive() {
 }
 
 questionFive();
-
+*/
 // question six
 function questionSix() {
   for (var i = 1; i < 5; i++) {
